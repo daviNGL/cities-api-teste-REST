@@ -1,4 +1,4 @@
-package com.davingl.citiesapi.staties.entities;
+package com.davingl.citiesapi.states.entities;
 
 import java.util.List;
 import javax.persistence.Basic;

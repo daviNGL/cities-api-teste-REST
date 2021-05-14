@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.davingl.citiesapi.cities.entities.City;
-import com.davingl.citiesapi.cities.repositories.CitieRepository;
+import com.davingl.citiesapi.cities.repositories.CityRepository;
 
 @RestController
 @RequestMapping("/cities")
 public class CitieResource {
 	
 	@Autowired
-	private CitieRepository repository;
+	private CityRepository repository;
 	
 	@GetMapping
 	public Page<City> getAllCities(Pageable page) {

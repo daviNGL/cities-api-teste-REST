@@ -1,4 +1,4 @@
-package com.davingl.citiesapi.staties.resources;
+package com.davingl.citiesapi.states.resources;
 
 import java.util.Optional;
 
@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.davingl.citiesapi.staties.entities.State;
-import com.davingl.citiesapi.staties.repositories.StateRepository;
+import com.davingl.citiesapi.states.entities.State;
+import com.davingl.citiesapi.states.repositories.StateRepository;
 
 
 @RestController
-@RequestMapping("/staties")
+@RequestMapping("/states")
 public class StateResource {
 	
 	
